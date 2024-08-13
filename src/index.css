@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.selected path {
+  fill: #E99AC4 !important;
+}
+
+.turkey-map h1 {
+  color: #E99AC4;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.turkey-map>div.calculate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.turkey-map>div.calculate>h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2b2d42;
+}
+
+.turkey-map>div.cities {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px;
+  height: auto;
+  direction: rtl;
+}
+
+
+.turkey-map>div.cities label {
+  padding: 6px;
+  margin: 0 2px;
+  background: #E99AC4;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+
+.turkey-map>div.cities::-webkit-scrollbar-track {
+  background: #efefef;
+}
+
+.turkey-map>div.cities::-webkit-scrollbar {
+  height: 5px;
+}
+
+.turkey-map>div.cities::-webkit-scrollbar-thumb {
+  background: #2b2d42;
+}
+
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2b2d42;
+}
